@@ -1,0 +1,24 @@
+body {
+    background-color: #f8f9fa;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+.dark-mode {
+    background-color: #1a202c;
+    color: white;
+}
+.dark-mode .bg-white {
+    background-color: #2d3748;
+}
+.dark-mode .text-gray-600 {
+    color: #cbd5e0;
+}
