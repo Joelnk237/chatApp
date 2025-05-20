@@ -155,6 +155,7 @@
         newMessage = "";
     }
 
+    // Funktion zum Löschen einer Nachricht
     async function deleteMessage(id: string) {
         const confirmDelete = confirm("Möchten Sie die Nachricht löschen ?");
         if (!confirmDelete) return;

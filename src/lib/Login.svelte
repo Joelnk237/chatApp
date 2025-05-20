@@ -13,7 +13,7 @@
 
     let showSignUp = false;
 
-    let errorMessage: string = '';
+    let errorMessage: string = ''; // Anzeigen Beim Fehler
 
     async function login() {
         if (!username || !password) {

@@ -97,24 +97,6 @@
     <p> Signed as { $currentUser.username }</p>
 {:else}
 
-   
-        <!--<form on:submit|preventDefault={signUp}>
-            <input placeholder="Name" type="text" bind:value={name}/>
-            <input placeholder="E-Mail" type="text" bind:value={email}/>
-            <input placeholder="username" type="text" bind:value={username}/>
-            <input placeholder="password" type="password" bind:value={password}/>
-            <input placeholder="Confirm password" type="password" bind:value={passwordConfirm}/>
-
-            {#if errorMessage}
-                <p style="color: red;">{errorMessage}</p>
-            {/if}
-        </form>
-        <button on:click={signUp}>signUp</button>
-        <button on:click={() => dispatch('switchToLogin')}>Login</button> -->
-
-
-
-
 
         <nav class="navbar navbar-dark bg-success p-3">
             <div class="container">

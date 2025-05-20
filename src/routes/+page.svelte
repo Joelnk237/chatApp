@@ -4,7 +4,7 @@
     import Signup from "$lib/Signup.svelte";
     import { currentUser, pb, } from "$lib/pocketbase";
 
-    let showSignup = false;
+    let showSignup = false; // ob die signup oder Login-Page angezeigt werden soll
 </script>
 
 
